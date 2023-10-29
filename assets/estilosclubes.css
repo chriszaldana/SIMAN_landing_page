@@ -57,4 +57,18 @@ nav{
     width: 450px;
 }
 
+footer{
+    background-color: #999999;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo_footer{
+    width: 150px;
+    height: 30px;
+    margin: 10px 40px;
+}
+
+.links_footer a{
+    color: white;
+}
 
