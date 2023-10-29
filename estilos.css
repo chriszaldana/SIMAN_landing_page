@@ -25,3 +25,8 @@ nav{
 .links li{
     padding: 10px;
 }
+
+.carousel-item{
+    height: 600px;
+    object-fit: cover;
+}
