@@ -20,10 +20,15 @@ nav{
 .links ul{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 .links li{
     padding: 10px;
+}
+
+.links a{
+    color: white;
 }
 
 .carousel-item{
@@ -65,4 +70,18 @@ nav{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+
+footer{
+    background-color: #999999;
+}
+
+.logo_footer{
+    width: 150px;
+    height: 30px;
+    margin: 10px 40px;
+}
+
+.links_footer a{
+    color: white;
 }
