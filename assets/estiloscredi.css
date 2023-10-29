@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* navbar */
+header{
+    background-color: #342E37;
+    
+}
+
+.search-bar{
+    width: 450px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.links li{
+    padding: 10px;
+}
+
+.links a{
+    color: white;
+}
+
+.liston{
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    height: 100px;
+    background-color: #13B3C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.titulo_formu{
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.formulario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+footer{
+    background-color: #999999;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo_footer{
+    width: 150px;
+    height: 30px;
+    margin: 10px 40px;
+}
+
+.links_footer a{
+    color: white;
+}
