@@ -10,24 +10,34 @@
 </head>
 <body>
     <!-- menu principal -->
-    <header class="sticky-top">
-        <nav>
-            <div class="logo">
-                <a href="index.html"><img width="300" src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/13ca9ba2-8626-4f6d-a3cd-7a67ee7a5f46___743b7a75b1d691f732066281bd8037fa.png" alt="logo"></a>
-            </div>
-            <div class="search-bar">
-                <input class="form-control me-2" type="search" placeholder="Busca tu producto" aria-label="Search">
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a target="_blank" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="https://wa.me/22577777"><img width="30" height="30" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/> Compra por WhatsApp</a></li>
-                    <li><a target="_blank" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="clubes.html"><img width="30" height="30" src="https://img.icons8.com/color/48/gift--v1.png" alt="gift--v1"/> Clubes</a></li>
-                    <li><a target="_blank" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="credisiman.html"><img width="30" height="30" src="https://img.icons8.com/office/16/bank-card-back-side.png" alt="bank-card-back-side"/> CREDISIMAN</a></li>
-                    <li><a target="_blank" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#"><img width="30" height="30" src="https://img.icons8.com/external-filled-agus-raharjo/64/external-add-item-e-commerce-filled-agus-raharjo.png" alt="external-add-item-e-commerce-filled-agus-raharjo"/></a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img width="300" src="https://siman.vtexassets.com/assets/vtex.file-manager-graphql/images/13ca9ba2-8626-4f6d-a3cd-7a67ee7a5f46___743b7a75b1d691f732066281bd8037fa.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse links" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://wa.me/22577777"><img width="30" height="30" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/> Compra por WhatsApp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clubes.html"><img width="30" height="30" src="https://img.icons8.com/color/48/gift--v1.png" alt="gift--v1"/> Clubes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="credisiman.html"><img width="30" height="30" src="https://img.icons8.com/office/16/bank-card-back-side.png" alt="bank-card-back-side"/> CREDISIMAN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img width="30" height="30" src="https://img.icons8.com/external-filled-agus-raharjo/64/external-add-item-e-commerce-filled-agus-raharjo.png" alt="external-add-item-e-commerce-filled-agus-raharjo"/></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <!-- Carrusel con imagenes alusivas a la tienda -->
     <main>
     <div id="carouselExampleAutoplaying" class="carousel slide carrusel" data-bs-ride="carousel">
@@ -62,7 +72,7 @@
             </div>
             <div class="container text-center tarjetas">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591707/pesas1_cyxwbd.jpg" class="card-img-top" alt="pesas">
                             <div class="card-body">
@@ -73,11 +83,9 @@
                             </div>
                           </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
-                            <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/pesas3_w7c4ez.jpg" class="card-img-top" alt="pesas">
+                            <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698885106/eliptica_qk9rvg.jpg" class="card-img-top" alt="pesas">
                             <div class="card-body">
                               <h5 class="card-title">Eliptica 5.0pro</h5>
                               <p class="card-text">Tu mejor opcion en elipticas</p>
@@ -86,9 +94,7 @@
                             </div>
                           </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/pesas2_lryw4z.jpg" class="card-img-top" alt="pesas">
                             <div class="card-body">
@@ -99,9 +105,7 @@
                             </div>
                           </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/pesas4_pgpvd6.jpg" class="card-img-top" alt="pesas">
                             <div class="card-body">
@@ -117,13 +121,11 @@
             <!-- anuncios -->
             <div class="container anuncios">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-12 col-xl-6 d-flex justify-content-center">
                         <div class="anuncio-imagen1">
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-12 col-xl-6 d-flex justify-content-center">
                         <div class="anuncio-imagen2">
                             
                         </div>
@@ -140,7 +142,7 @@
                 </div>
                 <div class="container text-center tarjetas">
                     <div class="row">
-                        <div class="col-md-3 col-6">
+                        <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                             <div class="card" style="width: 18rem;">
                                 <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/maleta3_jrqtmz.jpg" class="card-img-top" alt="maleta">
                                 <div class="card-body">
@@ -151,9 +153,8 @@
                                 </div>
                               </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-6">
+                    
+                        <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                             <div class="card" style="width: 18rem;">
                                 <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/maleta1_snmybw.jpg" class="card-img-top" alt="maleta">
                                 <div class="card-body">
@@ -164,9 +165,7 @@
                                 </div>
                               </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-6">
+                        <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                             <div class="card" style="width: 18rem;">
                                 <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/maleta3_jrqtmz.jpg" class="card-img-top" alt="maleta">
                                 <div class="card-body">
@@ -177,9 +176,7 @@
                                 </div>
                               </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-6">
+                        <div class="col-md-6 col-xl-3 d-flex justify-content-center">
                             <div class="card" style="width: 18rem;">
                                 <img src="https://res.cloudinary.com/dbl4ugndy/image/upload/v1698591706/maleta4_zte4v1.jpg" class="card-img-top" alt="maleta">
                                 <div class="card-body">
@@ -190,7 +187,7 @@
                                 </div>
                               </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
       </main>
       <footer>

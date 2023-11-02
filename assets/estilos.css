@@ -6,29 +6,9 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 /* navbar */
-header{
+nav{
     background-color: #342E37;
     
-}
-
-.search-bar{
-    width: 450px;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.links ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-.links li{
-    padding: 10px;
 }
 
 .links a{
